@@ -1,0 +1,208 @@
+{
+  "pages": {
+    "start": [
+      {
+        "goto": {
+          "target": "01intro"
+        }
+      }
+    ],
+    "01intro": [
+      {
+        "image": {
+          "locator": "gallery:add6db8d-b5df-4cbf-a726-5e6ad0e0dc24/*"
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:part1.mp3"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "image": {
+          "locator": "gallery:add6db8d-b5df-4cbf-a726-5e6ad0e0dc24/*"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>placeholder</p>",
+          "mode": "autoplay"
+        }
+      }
+    ]
+  },
+  "galleries": {
+    "add6db8d-b5df-4cbf-a726-5e6ad0e0dc24": {
+      "name": "sampleCharImages",
+      "images": [
+        {
+          "id": 3270628,
+          "hash": "fb069f963ea56733f02fa04d75f0dcf0ffb6061e",
+          "size": 889989,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270629,
+          "hash": "fddfe2eda0864b6a6c08a8efdb779a52c0360a70",
+          "size": 971211,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270630,
+          "hash": "6606415c8336e8cce447aebd165621e01c07e180",
+          "size": 936157,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270632,
+          "hash": "3808bdb029d52c26662c5e7f864e1d6dc9af977b",
+          "size": 975120,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270633,
+          "hash": "aca21804c016f4840c9f051f58816172beaeaec6",
+          "size": 851199,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270634,
+          "hash": "9cd395e02d3d49b2dfec1aebe9f1d4ad9fe26c84",
+          "size": 978105,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270635,
+          "hash": "4d8ba8cd0a8ae1aefbf70ba228521654e286862b",
+          "size": 928580,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270636,
+          "hash": "e352618a43ce6eda964dbd4cee0ae10070328957",
+          "size": 858808,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270637,
+          "hash": "32e3557f91bd4b69eb6e789826a9d55ed52bd7e3",
+          "size": 909407,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270638,
+          "hash": "6eb535a9b1674fa494ccbd5ee5c4c567068ee121",
+          "size": 999074,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270639,
+          "hash": "7ff95edd22411fe75e27136fea43a249b0c4ce7c",
+          "size": 902368,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270640,
+          "hash": "49a9f6493f3f799b6d1ea2f32ac260890bc64489",
+          "size": 899154,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270641,
+          "hash": "9a7254526c76509815b8b7686054cb579c12fab5",
+          "size": 911688,
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "editor": {
+    "recentImages": [
+      {
+        "type": "gallery",
+        "mimeType": "image/jpeg",
+        "galleryId": "add6db8d-b5df-4cbf-a726-5e6ad0e0dc24",
+        "url": "gallery:add6db8d-b5df-4cbf-a726-5e6ad0e0dc24/*"
+      }
+    ]
+  },
+  "init": "",
+  "modules": {
+    "audio": {}
+  },
+  "files": {
+    "part1.mp3": {
+      "id": 3270715,
+      "hash": "12f9da808e9c286e759f240d5bdfaa055b469264",
+      "size": 1920621,
+      "type": "audio/mpeg"
+    }
+  }
+}
