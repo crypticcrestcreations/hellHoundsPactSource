@@ -184,6 +184,11 @@
         }
       },
       {
+        "timer": {
+          "duration": "10s"
+        }
+      },
+      {
         "audio.play": {
           "locator": "file:story2.mp3",
           "loops": 1,
@@ -234,6 +239,375 @@
           "loops": 1,
           "volume": 0,
           "id": "story7",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-50bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome50",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-55bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome55",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-60bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome60",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-65bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome65",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-70bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome70",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-75bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome75",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-80bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome80",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-85bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome85",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-90bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome90",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-95bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome95",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-100bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome100",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-105bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome105",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-110bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome110",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-115bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome115",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-120bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome120",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-125bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome125",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-130bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome130",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-135bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome135",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-140bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome140",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-145bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome145",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-150bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome150",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-155bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome155",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-160bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome160",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-165bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome165",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-170bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome170",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-175bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome175",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-180bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome180",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-185bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome185",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-190bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome190",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-195bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome195",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-200bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome200",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-205bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome205",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-210bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome210",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-215bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome215",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-220bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome220",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-225bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome225",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-230bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome230",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-235bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome235",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-240bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome240",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-245bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome245",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:metronome-250bpm.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "metronome250",
           "background": true
         }
       },
