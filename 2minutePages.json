@@ -1,6 +1,6 @@
 {
     "page1": {
-        "timestamps": "3.8 - 105.78",
+        "timestamps": "3.8 - 99.02",
         "lines": [
             {
                 "number": 1,
@@ -37,7 +37,7 @@
         ]
     },
     "page2": {
-        "timestamps": "99.58 - 193.48",
+        "timestamps": "99.58 - 187.80",
         "lines": [
             {
                 "number": 1,
@@ -74,7 +74,7 @@
         ]
     },
     "page3": {
-        "timestamps": "189.38 - 301.0",
+        "timestamps": "189.38 - 293.58",
         "lines": [
             {
                 "number": 1,
@@ -111,7 +111,7 @@
         ]
     },
     "page4": {
-        "timestamps": "294.28 - 416.68",
+        "timestamps": "294.28 - 413.16",
         "lines": [
             {
                 "number": 1,
@@ -148,7 +148,7 @@
         ]
     },
     "page5": {
-        "timestamps": "415.18 - 521.34",
+        "timestamps": "415.18 - 518.50",
         "lines": [
             {
                 "number": 1,
@@ -185,7 +185,7 @@
         ]
     },
     "page6": {
-        "timestamps": "519.6 - 622.08",
+        "timestamps": "519.6 - 617.98",
         "lines": [
             {
                 "number": 1,

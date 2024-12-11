@@ -1,0 +1,684 @@
+{
+  "pages": {
+    "start": [
+      {
+        "image": {
+          "locator": "gallery:add6db8d-b5df-4cbf-a726-5e6ad0e0dc24/*"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>Welcome to Hellhound&#39;s Pact</p>",
+          "mode": "instant"
+        }
+      },
+      {
+        "choice": {
+          "options": [
+            {
+              "label": "Start",
+              "commands": [
+                {
+                  "goto": {
+                    "target": "-preload"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "More Games",
+              "commands": [
+                {
+                  "goto": {
+                    "target": "-details"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "-details": [
+      {
+        "image": {
+          "locator": "gallery:add6db8d-b5df-4cbf-a726-5e6ad0e0dc24/*"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>Follow my socials to be the first to know about new releases and get progress updates about current projects:</p><p></p><p><span style=\"color: #81c784\"><u>https://twitter.com/crypticcrest</u></span></p><p><span style=\"color: #81c784\"><u>https://www.instagram.com/crypticcrestcreations</u></span></p><p><span style=\"color: #81c784\"><u>https://www.patreon.com/crypticcrestcreations</u></span></p>",
+          "mode": "instant"
+        }
+      },
+      {
+        "choice": {
+          "options": [
+            {
+              "label": "Back",
+              "commands": [
+                {
+                  "goto": {
+                    "target": "start"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "01page-1": [
+      {
+        "image": {
+          "locator": "gallery:add6db8d-b5df-4cbf-a726-5e6ad0e0dc24/*"
+        }
+      },
+      {
+        "eval": {
+          "script": "part1.play()"
+        }
+      },
+      {
+        "eval": {
+          "script": "part1.play()"
+        }
+      },
+      {
+        "timer": {
+          "duration": "5s",
+          "style": "hidden"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>By my authority as a guardian of Hell's gates, I open a door between our worlds. Now come forward and appear before me. I command your summoning.</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>It worked. Ha ha ha ha! I can't believe it worked. So the words of that damned weren't lies... Let me have a look at you.</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>Ha ha ha ha ha ha! Look at you all disoriented, not knowing where you are. That's cute. Now let me do the introductions. My name is Cinder.</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>You might know my name from Legends. I'm a hellhound. Yeah, it means exactly what you think it means, human.</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "image": {
+          "locator": "gallery:add6db8d-b5df-4cbf-a726-5e6ad0e0dc24/*"
+        }
+      },
+      {
+        "timer": {
+          "duration": "18s",
+          "style": "hidden"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>Welcome to Hell, the place where all sinners end up to get eternally tortured for the acts you've committed on Earth.</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>And for your first time in Hell, you have the chance to meet the chief of the Guardians of Hell's gates. We're making sure no foolish living human comes to Hell and does whatever they want.</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>The big boss really hates when unwanted guests decide to come into his home. No, no, you're not dead. You're as alive as I am.</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "say": {
+          "label": "<p>Well, not really, but with time you'll understand. Like I said, nothing alive should come to Hell.</p>",
+          "mode": "autoplay"
+        }
+      },
+      {
+        "timer": {
+          "duration": "5s",
+          "style": "hidden"
+        }
+      },
+      {
+        "goto": {
+          "target": "01page-2"
+        }
+      }
+    ],
+    "00intro": [
+      {
+        "image": {
+          "locator": "gallery:add6db8d-b5df-4cbf-a726-5e6ad0e0dc24/*"
+        }
+      },
+      {
+        "eval": {
+          "script": "stories[0].play()"
+        }
+      }
+    ],
+    "-preload": [
+      {
+        "audio.play": {
+          "locator": "file:story1.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "story1",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:story2.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "story2",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:story3.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "story3",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:story4.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "story4",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:story5.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "story5",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:story6.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "story6",
+          "background": true
+        }
+      },
+      {
+        "audio.play": {
+          "locator": "file:story7.mp3",
+          "loops": 1,
+          "volume": 0,
+          "id": "story7",
+          "background": true
+        }
+      },
+      {
+        "say": {
+          "label": "<p>Loading...</p>",
+          "mode": "instant"
+        }
+      },
+      {
+        "notification.create": {
+          "id": "headerMeter",
+          "title": "Arousal:"
+        }
+      },
+      {
+        "notification.create": {
+          "id": "meter",
+          "title": "[😐]   0%"
+        }
+      },
+      {
+        "eval": {
+          "script": "// Create meter\nvar meter = Notification.get('meter');\n\nvar arousalLevel = 0;\n\nfunction increaseArousal(amount) {\n  arousalLevel += amount;\n  if (arousalLevel > 100) arousalLevel = 100; // Cap at 100\n  setMeter(arousalLevel);\n}\n\nfunction getArousalEmoji(level) {\n  if (level <= 10) return \"😐\";\n  if (level <= 20) return \"🙂\";\n  if (level <= 30) return \"😌\";\n  if (level <= 40) return \"😉\";\n  if (level <= 50) return \"😏\";\n  if (level <= 60) return \"😘\";\n  if (level <= 70) return \"🥰\";\n  if (level <= 80) return \"😍\";\n  if (level <= 90) return \"😩\";\n  return \"🥵\";\n}\n\nfunction padLevel(level) {\n  // Ensure arousal level always has 3 characters (pad with spaces)\n  return (\"  \" + level).slice(-3);\n}\n\nfunction setMeter(level) {\n  meter.setTitle(\"[\" + getArousalEmoji(level) + \"] \" + padLevel(level) + \"%\");\n}\n\n"
+        }
+      },
+      {
+        "eval": {
+          "script": "var storyParts = ['story1', 'story2', 'story3', 'story4', 'story5', 'story6', 'story7'];\nvar stories = []; // Array to store story objects\n\nfor (var i = 0; i < storyParts.length; i++) {\n  stories[i] = Sound.get(storyParts[i]); // Fetch story object and store in array\n  stories[i].stop();\n  stories[i].setVolume(1);\n}"
+        }
+      },
+      {
+        "eval": {
+          "script": "// Get beats for page1\n"
+        }
+      },
+      {
+        "goto": {
+          "target": "00intro"
+        }
+      }
+    ]
+  },
+  "galleries": {
+    "add6db8d-b5df-4cbf-a726-5e6ad0e0dc24": {
+      "name": "sampleCharImages",
+      "images": [
+        {
+          "id": 3270628,
+          "hash": "fb069f963ea56733f02fa04d75f0dcf0ffb6061e",
+          "size": 889989,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270629,
+          "hash": "fddfe2eda0864b6a6c08a8efdb779a52c0360a70",
+          "size": 971211,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270630,
+          "hash": "6606415c8336e8cce447aebd165621e01c07e180",
+          "size": 936157,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270632,
+          "hash": "3808bdb029d52c26662c5e7f864e1d6dc9af977b",
+          "size": 975120,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270633,
+          "hash": "aca21804c016f4840c9f051f58816172beaeaec6",
+          "size": 851199,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270634,
+          "hash": "9cd395e02d3d49b2dfec1aebe9f1d4ad9fe26c84",
+          "size": 978105,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270635,
+          "hash": "4d8ba8cd0a8ae1aefbf70ba228521654e286862b",
+          "size": 928580,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270636,
+          "hash": "e352618a43ce6eda964dbd4cee0ae10070328957",
+          "size": 858808,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270637,
+          "hash": "32e3557f91bd4b69eb6e789826a9d55ed52bd7e3",
+          "size": 909407,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270638,
+          "hash": "6eb535a9b1674fa494ccbd5ee5c4c567068ee121",
+          "size": 999074,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270639,
+          "hash": "7ff95edd22411fe75e27136fea43a249b0c4ce7c",
+          "size": 902368,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270640,
+          "hash": "49a9f6493f3f799b6d1ea2f32ac260890bc64489",
+          "size": 899154,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 3270641,
+          "hash": "9a7254526c76509815b8b7686054cb579c12fab5",
+          "size": 911688,
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    }
+  },
+  "editor": {
+    "recentImages": [
+      {
+        "type": "gallery",
+        "mimeType": "image/jpeg",
+        "galleryId": "add6db8d-b5df-4cbf-a726-5e6ad0e0dc24",
+        "url": "gallery:add6db8d-b5df-4cbf-a726-5e6ad0e0dc24/*"
+      }
+    ]
+  },
+  "init": "",
+  "modules": {
+    "audio": {},
+    "storage": {},
+    "notification": {}
+  },
+  "files": {
+    "story1.mp3": {
+      "id": 3276361,
+      "hash": "4adc0a3a0a2687bed76c357a6da3d23eb13032bd",
+      "size": 1533165,
+      "type": "audio/mpeg"
+    },
+    "story2.mp3": {
+      "id": 3276362,
+      "hash": "1c5174c77660f8815f456aa682f9883c0b6892d7",
+      "size": 1437549,
+      "type": "audio/mpeg"
+    },
+    "story3.mp3": {
+      "id": 3276363,
+      "hash": "8041267efd46e6f44a8611f56ebc7b774e37607b",
+      "size": 1679085,
+      "type": "audio/mpeg"
+    },
+    "story4.mp3": {
+      "id": 3276364,
+      "hash": "a3d19da9d73593cbf8f5699389df649936b4c3b4",
+      "size": 1935213,
+      "type": "audio/mpeg"
+    },
+    "story5.mp3": {
+      "id": 3276365,
+      "hash": "f2fc19656b354bbaad8556a6d6b0d9efa0c2e479",
+      "size": 1671405,
+      "type": "audio/mpeg"
+    },
+    "story6.mp3": {
+      "id": 3276366,
+      "hash": "f54d2b2e590bbe29e980be10370ea0a3c998f520",
+      "size": 1577709,
+      "type": "audio/mpeg"
+    },
+    "story7.mp3": {
+      "id": 3276367,
+      "hash": "f0c29373706fb26e292c27e444160cebb0fbf8e3",
+      "size": 2319213,
+      "type": "audio/mpeg"
+    },
+    "metronome-50bpm.mp3": {
+      "id": 3276368,
+      "hash": "f70a37ecac1d836f0d9ecd99cf058afa39fe2ca2",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-55bpm.mp3": {
+      "id": 3276369,
+      "hash": "1d4052c268faaf2b73fe4358938fee33cf0f4974",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-60bpm.mp3": {
+      "id": 3276370,
+      "hash": "02696018f364d04080e86f04db570997a2d93a46",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-65bpm.mp3": {
+      "id": 3276371,
+      "hash": "d393cc49bed26d4ec01e3795bcbc580c7e719f9f",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-70bpm.mp3": {
+      "id": 3276372,
+      "hash": "9673df478177780937b2fe6a6f08828438a17d21",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-75bpm.mp3": {
+      "id": 3276373,
+      "hash": "513fce585412b3e2c58fbd2d9e4c6618abc9a2c0",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-80bpm.mp3": {
+      "id": 3276374,
+      "hash": "2d09415bd19ed48b98992fec20e04e5f641868fb",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-85bpm.mp3": {
+      "id": 3276375,
+      "hash": "2505640d6512929b82971f5111f9ec8c9b75be17",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-90bpm.mp3": {
+      "id": 3276376,
+      "hash": "869fb4f1efddd2ec938fd29630ab32ae47176816",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-95bpm.mp3": {
+      "id": 3276377,
+      "hash": "48e825b934cc2ced68544e620ae28a7d5062e47a",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-100bpm.mp3": {
+      "id": 3276378,
+      "hash": "b2a125a7d7b6e0e3cb180248c1dd743b81aa447e",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-105bpm.mp3": {
+      "id": 3276379,
+      "hash": "efc2035e8fe0b0cae741e32dde5efe69f6872bae",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-110bpm.mp3": {
+      "id": 3276380,
+      "hash": "8579f5ac6a08ecfef9cead11aa2f014252591d2c",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-115bpm.mp3": {
+      "id": 3276381,
+      "hash": "4bbc0a27ef571caf05d5ff4b658b8670db855ec2",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-120bpm.mp3": {
+      "id": 3276382,
+      "hash": "ffb9f80467326f83ab1cd638581f84b0d5ad0eab",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-125bpm.mp3": {
+      "id": 3276383,
+      "hash": "b2db2120c58ff7ead572c3f12c4e48b2e80f356f",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-130bpm.mp3": {
+      "id": 3276384,
+      "hash": "f3c922b2073d9c1f3e4f3f6f0e1bfd86fd8c8e0b",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-135bpm.mp3": {
+      "id": 3276385,
+      "hash": "8f51c4dd9124755c4892b48de9391f905b749e02",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-140bpm.mp3": {
+      "id": 3276386,
+      "hash": "d51b40a09882b41c9ebd035df56d1f3f79f1249e",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-145bpm.mp3": {
+      "id": 3276387,
+      "hash": "f3414bc5f96fd3a314feb12088500f154508f5a8",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-150bpm.mp3": {
+      "id": 3276388,
+      "hash": "de3ec81df39b259cb16ea117e2501f149eeeb3de",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-155bpm.mp3": {
+      "id": 3276389,
+      "hash": "c774a346d2762843f33b9a8a960e40e85be95ac3",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-160bpm.mp3": {
+      "id": 3276390,
+      "hash": "8f16db19cd6903306ac8690d2e7f4c7660f8e756",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-165bpm.mp3": {
+      "id": 3276391,
+      "hash": "d8bf25fca1e3470ce69ff7b3997b4bd61d949cab",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-170bpm.mp3": {
+      "id": 3276392,
+      "hash": "f5e3ba03705a3f1b6ef80fcb76e5b7c5711e9b87",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-175bpm.mp3": {
+      "id": 3276393,
+      "hash": "f35cf51a3ee2cb604c482feed53f6a5654d76b79",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-180bpm.mp3": {
+      "id": 3276394,
+      "hash": "b2a4ba11a7db9ce04fa48476dc7d3e7dad5df67b",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-185bpm.mp3": {
+      "id": 3276395,
+      "hash": "c5934876a90bdbb821ead49b27f30e04bffd51c0",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-190bpm.mp3": {
+      "id": 3276396,
+      "hash": "6e1be4ac429562cfa05284f3b6fb098cc36a29ed",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-195bpm.mp3": {
+      "id": 3276397,
+      "hash": "77be215893099aaf13effbd033919c7d8686d710",
+      "size": 477741,
+      "type": "audio/mpeg"
+    },
+    "metronome-200bpm.mp3": {
+      "id": 3276398,
+      "hash": "fd90d3960018c20edaacbbafeb074784c3943069",
+      "size": 480429,
+      "type": "audio/mpeg"
+    },
+    "metronome-205bpm.mp3": {
+      "id": 3276399,
+      "hash": "7b62d98042297550ee07fcfe71c0e75f973f66d2",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-210bpm.mp3": {
+      "id": 3276400,
+      "hash": "157d05b56a33caf1f5a8b610d92848d7b5deaeb2",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-215bpm.mp3": {
+      "id": 3276401,
+      "hash": "269c8de4ce9132d18fd00cf6ce835939d8167a61",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-220bpm.mp3": {
+      "id": 3276402,
+      "hash": "b82428e37bfdbe0c09bf5ba3c51d892c7cbd46f8",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-225bpm.mp3": {
+      "id": 3276403,
+      "hash": "8b84b4c5c23a0738168275ac044d03de05a4d9b7",
+      "size": 478125,
+      "type": "audio/mpeg"
+    },
+    "metronome-230bpm.mp3": {
+      "id": 3276404,
+      "hash": "f3d768bf5ecf2cbf0eecc72c03aa7531e2661498",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-235bpm.mp3": {
+      "id": 3276405,
+      "hash": "f95eb3954b6b8efd6187e44f72d24e8913b61187",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-240bpm.mp3": {
+      "id": 3276406,
+      "hash": "54aad895093165975e80feea8ecbd89fe2aaa717",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-245bpm.mp3": {
+      "id": 3276407,
+      "hash": "c276bc85997a0e819fc32a6125df5457053ceb6e",
+      "size": 480237,
+      "type": "audio/mpeg"
+    },
+    "metronome-250bpm.mp3": {
+      "id": 3276408,
+      "hash": "a7a60bdc7919532eb18f14458fbcd0d180271203",
+      "size": 480237,
+      "type": "audio/mpeg"
+    }
+  }
+}
